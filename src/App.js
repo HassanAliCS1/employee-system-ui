@@ -1,12 +1,14 @@
 import './App.css';
 import './components/Navbar';
 import Navbar from './components/Navbar';
+import AddEmployee from './components/AddEmployee';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar/>
-    </div>
+      <AddEmployee/>
+    </>
   );
 }
 
